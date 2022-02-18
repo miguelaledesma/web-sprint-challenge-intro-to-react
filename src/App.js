@@ -23,7 +23,7 @@ const App = () => {
   const closeDetails = () => {
     setJediButton(null)
   }
-
+  // attempted to try making buttons but thats not working. 
 
 
   useEffect(() => {
@@ -41,7 +41,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">BEST CHARACTERS IN STAR WARS</h1>
 
     { jedi && jedi.map(info => {
 
