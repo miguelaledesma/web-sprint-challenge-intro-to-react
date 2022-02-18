@@ -79,6 +79,12 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- React.js is trying to resolve the problem of the repetitive referencing to the DOM. When we want to add something to the DOM using vanilla Javascript, we have to reference the DOM using document.querselector(’.class’) to be able to add/manipulate what is in that class name. With React, all this goes away and we can manipulate the DOM within a react component. Inside of writing out each individual element that we want to create, we can do it all withing a virtualDOM that react builds for us. React was created by facebook to allow manipulation of the DOM to be quicker and faster. 
 1. Describe component state.
+- A "component" is a pretty loose term to describe a discrete chunk of your site. A header could be a component, for example. Or a footer. Or a hero section, etc. This one's pretty simple, all we're doing is rendering a div with an h1 inside of it.
+
+
 1. Describe props.
+- When we want to pass information held on state inside one component to another, we pass them as props.
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+- A side effect is anything that affects something outside the scope of the function being executed. Fetching data from an API, timers, logging, and manually manipulating the DOM are all examples of side effects.
