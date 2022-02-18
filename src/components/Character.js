@@ -12,15 +12,17 @@ border: 2px solid black ;
   color: white; 
   font-size: 20px; 
   width: 50%; 
+  background-color: #FFDFD3; 
 
 `
+
 
 const Character = props => {
     const { info } = props 
     return (
         <div className = 'characters' >
         <StyledP> {info.name}  </StyledP> 
-        <p> {info.films} </p>    
+           
        
         </div>
     )
